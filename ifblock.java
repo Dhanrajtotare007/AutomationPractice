@@ -1,0 +1,23 @@
+package Conditionalstatements;
+/* Syntax of if block
+ * if(condition)
+ * {
+ * }
+ */
+public class ifblock {
+	
+	public static void main(String[] args) {
+		
+		int age = 16;
+		
+		if(age>18) {
+			System.out.println("adult - Eligible for vote");
+		}
+		if (age<18) {
+			
+			System.out.println("underage- not eligible for vote");
+		}
+		
+	}
+		
+	};
